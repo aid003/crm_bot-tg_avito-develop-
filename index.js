@@ -68,7 +68,7 @@ async function main() {
               [
                 {
                   text: "БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ",
-                  url: "https://t.me/deniskarelinn",
+                  url: "https://t.me/m/pI6STKZFM2Iy",
                 },
               ],
               [{ text: "КАНАЛ", url: "https://t.me/targetdysh" }],
