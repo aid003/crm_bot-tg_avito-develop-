@@ -15,6 +15,7 @@ datasource db {
 
 model Users {
   id        Int      @id @default(autoincrement())
+  project   String
   name      String?
   username  String?
   tgId      String   @unique
@@ -22,3 +23,4 @@ model Users {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+

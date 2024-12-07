@@ -45,11 +45,12 @@ async function main() {
                 : msg.from.first_name,
               username: msg.from.username,
               tgId: String(msg.from.id),
+              project: process.env.NAME_PROJECT,
             },
           });
           try {
             await bot_tg.forwardMessage(
-              -1002391845053,
+              process.env.ID_CHAT,
               msg.chat.id,
               msg.message_id
             );
